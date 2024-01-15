@@ -10,8 +10,7 @@
 
 <!--<table class="title"><tr><td background="epinon_logo.png"></td></tr></table>-->
 <table style="text-align: center; font-size: 50px;"><tbody><tr><td><b> 
-		  <script>document.write(edition)</script>
-	International Workshop on <br> Formal Ontologies Meet Industry</b></td></tr></tbody></table>
+<script>pprint(edition)</script> International Workshop on <br> Formal Ontologies Meet Industry</b></td></tr></tbody></table>
 <table class="banner"><tbody><tr><td class="menu">
 		<a href="index.html" class="menu" target="_top">h o m e</a>&nbsp;&nbsp;·&nbsp;&nbsp;
 		<a href="news.html" class="menu" target="_top">n e w s</a>&nbsp;&nbsp;·&nbsp;&nbsp;
@@ -20,6 +19,11 @@
 		<a href="partners.html" class="menu" target="_top">p a r t n e r s</a>&nbsp;&nbsp;·&nbsp;&nbsp;
 		<a href="program.html" class="menu" target="_top">p r o g r a m</a>&nbsp;&nbsp;·&nbsp;&nbsp;
 		<a href="contact.html" class="menu" target="_top">c o n t a c t</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-		<a href="http://iaoa.org/jowo/" class="menu" target="_blank">r e g i s t r a t i o n</a>
+		<a id="registrationMenuAnchor" class="menu" target="_blank">r e g i s t r a t i o n</a>
 </td></tr></tbody></table>
-</center></body></html>
+</center>
+<script>
+    const registrationMenuAnchor = document.getElementById("registrationMenuAnchor");
+    registrationMenuAnchor.setAttribute("href", registrationLink);
+</script>
+</body></html>

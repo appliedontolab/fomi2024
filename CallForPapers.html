@@ -1,10 +1,10 @@
 <html>
 <head>
-<title>FOMI 2021</title>   
+<title>FOMI</title>   
 
 <link rel="stylesheet" type="text/css" href="css/fomi2021.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
+<script src="scripts.js"></script>
 </head>
 
 <body>
@@ -61,11 +61,13 @@
     </div>
 
 
-    <div class="section" style="padding-top:0px;padding-bottom:10px;">Special Session</div>
+    <!-- Section for eventual special sessions-->
+
+    <!-- <div class="section" style="padding-top:0px;padding-bottom:10px;">Special Session</div>-->
     <!-- ================================================ -->
      
-    FOMI 2021 Workshop is supported by the <a href="https://ontocommons.eu/">OntoCommons project</a> and endorsed by the <a href="https://www.industrialontologies.org/">Industrial Ontologies Foundry</a>. A special session will be organized to share experience from ongoing initiatives and industrial companies. </br> </br>
-
+    <!-- FOMI <script>pprint(year)</script> Workshop is supported by the <a href="https://ontocommons.eu/">OntoCommons project</a> and endorsed by the <a href="https://www.industrialontologies.org/">Industrial Ontologies Foundry</a>. A special session will be organized to share experience from ongoing initiatives and industrial companies. </br> </br> -->
+   
     
     
     
@@ -74,11 +76,7 @@
     <!-- ================================================ -->
     
     <ul type="square" style="line-height:2;">
-    <li> 21 June 2021 - Abstract submission deadline.</b></li>
-    <li> <ins><b>09 July 2021</b></ins> <del>03 July 2021</del> - Extended paper submission deadline.</b></li>
-    <li> 09 August 2021 - Notification of acceptance.</li>
-    <li> 23 August 2021 - Camera-ready version.</li>
-    <li> 11-18 September 2021 - JOWO workshop (exact FOMI date TBD).</li>
+        <script>pprint(importantDates)</script>
     </ul>
     
     <!-- ================================================ -->
@@ -98,9 +96,13 @@
     <!-- ================================================ -->
     <ul type="square" style="line-height:2;">
     <li>Papers should be submitted non-anonymously in PDF format using the CEUR-Art latex template in one-column mode (<a href="http://ceur-ws.org/Vol-XXX/CEURART.zip">downloadable here</a>)</li>
-    <li>Papers should be uploaded via Easy Chair following <a href="https://easychair.org/my/conference?conf=jowo2021">this link</a> (select the track "Formal Ontologies meet Industry")</li>
+    <li>Papers should be uploaded via Easy Chair following <a id="uploadPapersAnchor">this link</a> (select the track "Formal Ontologies Meet Industry")</li>
     </ul>
     
+    <script>
+        const uploadPapersAnchor = document.getElementById("uploadPapersAnchor");
+        uploadPapersAnchor.setAttribute("href", uploadPapersLink);
+    </script>
     </body>
     </html>
     

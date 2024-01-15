@@ -1,11 +1,11 @@
+<!DOCTYPE html>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>FOMI <script>document.write(year)</script></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>FOMI</title>
         
-
         <link rel="stylesheet" type="text/css" href="css/fomi2021.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <script src="scripts.js"></script>
@@ -18,13 +18,13 @@
 <tbody><tr><td class="standard">
 
 <div class="h1" style="padding-top: 15px;">
-12th International Workshop on Formal Ontologies meet Industry
+    <script>pprint(title);</script>
 </div>
 <div class="h2" style="padding-top: 8px;">
-17 September 2021, Bolzano, Italy
+    <script>pprint(date);</script>, <script>pprint(place);</script>
 </div>
 <div class="h2" style="padding-top: 5px;">
-Part of the <a href="http://www.iaoa.org/jowo/" target="_blank">Joint Ontology Workshops</a> (JOWO 2021) and <a href="https://summerofknowledge.inf.unibz.it/" target="_blank">Bolzano Summer of Knowledge (BOSK)</a>
+Part of the <a href="http://www.iaoa.org/jowo/" target="_blank">Joint Ontology Workshops</a> (JOWO <script>pprint(year);</script>) colocated with <a href="https://www.utwente.nl/en/eemcs/fois2024/" target="_blank"> 14th international conference on formal ontology in information systems (FOIS) 2024</a>
 </div>
 
 <!-- ================================================ -->
@@ -32,11 +32,7 @@ Part of the <a href="http://www.iaoa.org/jowo/" target="_blank">Joint Ontology W
 <!-- ================================================ -->
 
 <ul style="line-height: 2;" type="square">
-<li> 21 June 2021  - Abstract submission deadline.</li>
-<li> <ins><b>09 July 2021</b></ins> <del>03 July 2021</del>  - Extended paper submission deadline.</li>
-<li> 09 August 2021 - Notification of acceptance.</li>
-<li> 23 August 2021 - Camera-ready version.</li>
-<li> <b> 17 September 2021 - FOMI workshop</b> <span style="font-weight: bold;">in hybrid mode (on-site and online)</span>.</li>
+<script>pprint(importantDates);</script>
 </ul>
 
 
@@ -59,19 +55,19 @@ organization.
 
 <div style="vertical-align: top; padding-bottom: 10px;">
 Theoretical ideas seem often very promising but their actual implementation brings up unexpected problems and issues.
-The FOMI 2021 Workshop aims to collect useful experiences and lessons learned by the presentation of:
+The FOMI <script>pprint(year)</script> Workshop aims to collect useful experiences and lessons learned by the presentation of:
 
 <ol>
 <li> Experience with problems in ontology application.</li>
 <li> New insights on known problematic issues.</li>
-<li> New results.</li>
+<li> New research results.</li>
 <li> Successes and observations in ontology implementation.</li>
 <li> Lessons learned on the best way to apply ontological methodologies to real-world situations.</li>
 </ol>
 </div>
 
 <div style="vertical-align: top; padding-bottom: 10px;">
-FOMI 2021 will facilitate open discussion and experience sharing. Very similar problems arise in
+FOMI <script>pprint(year)</script> will facilitate open discussion and experience sharing. Very similar problems arise in
 disparate ontology applications and an <b>open discussion</b> helps to highlight commonalities and to spread ideas
 for possible solutions. For this reason, FOMI welcomes <b>researchers</b> and <b>practitioners</b>
 that embrace this perspective
@@ -85,6 +81,11 @@ engineering, finance, law, biology, geography, electronics, etc.
 <div class="section" style="padding-top: 15px; padding-bottom: 0px;">Registration</div>
 <!-- ================================================ -->
 
-For registration to the workshop, please visit the <a href="https://summerofknowledge.inf.unibz.it/registration-bosk-2021/" target="_blank">BOSK page</a>. Online participation is completely free.
+For registration to the workshop, please visit this <a id="registrationAnchor" target="_blank">page</a>. <!--Online participation is completely free.-->
 
-    </td></tr></tbody></table></center></body></html>
+    </td></tr></tbody></table></center>
+<script>
+    const registrationAnchor = document.getElementById("registrationAnchor");
+    registrationAnchor.setAttribute("href", registrationLink);
+</script>
+</body></html>
