@@ -1,6 +1,6 @@
 // TODO: change registration link; committe list; partners; program
 
-const edition = "12th";
+const edition = "13th";
 const year = 2024;
 const month = "July";
 const days = "15-19";
