@@ -30,6 +30,7 @@ const committeeList =
 
 '<li>Alessandro Oltramari, Bosch, USA</li>' +
 '<li>Alessandro Umbrico, CNR-ISTC, Italy</li>' +
+'<li>Arkopaul Sarkar, INP-ENIT, University of Toulouse, France</li>' +
 '<li>Bahar Aameri, University of Toronto, Canada</li>' +
 '<li>Boonserm Kulvatunyou, National Institute of Standards and Technology, USA</li>' +
 '<li>Daniele Spoladore, CNR-STIIMA, Italy</li>' +
