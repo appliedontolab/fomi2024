@@ -27,34 +27,25 @@ const organizers = [
     { name: "Walter Terkaj", email: "walter.terkaj@stiima.cnr.it" },
 ]
 const committeeList = 
-        '<li> [to be determined] </li'
-    // '<li>Bahar Aameri, University of Toronto, Canada</li>\n' +
-    // '<li>Farhad Ameri, Texas State University, USA</li>\n' +
-    // '<li>Rebeca Arista Rangel, Airbus, Spain</li>\n' +
-    // '<li>Stefano Borgo, ISTC-CNR, Italy</li>\n' +
-    // '<li>Hyunmin Cheong, Autodesk Research, Canada</li>\n' +
-    // '<li>Michael Gruninger, University of Toronto, Canada</li>\n' +
-    // '<li>Eeva J&#228;rvenp&#228;&#228;, Tampere University of Technology, Finland</li>\n' +
-    // '<li>Hedi Karray, ENIT, France</li>\n' +
-    // '<li>Dimitris Kiritsis, &#201;cole Polytechnique F&#233;d&#233;rale de Lausanne, Switzerland</li>\n' +
-    // '<li>David Koonce, Ohio University, USA</li>\n' +
-    // '<li>Boonserm Kulvatunyou, National Institute of Standards and Technology, USA</li>\n' +
-    // '<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>\n' +
-    // '<li>Dimitris Mourtzis, University of Patras, Greece</li>\n' +
-    // '<li>Elisa Negri, Politecnico di Milano, Italy</li>\n' +
-    // '<li>Herv&#233; Panetto, University of Lorraine, France</li>\n' +
-    // '<li>Jos&#233; Parente De Oliveira, Technological Institute of Aeronautics, Brazil</li>\n' +
-    // '<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>\n' +
-    // '<li>Mar&#237;a Poveda-Villalon, Universidad Polit&#233;cnica de Madrid, Spain</li>\n' +
-    // '<li>Tiago Prince Sales, Free University of Bozen-Bolzano, Italy</li>\n' +
-    // '<li>Pedro Rosado Castellano, Universitat Jaume I de Castell&#243;, Spain</li>\n' +
-    // '<li>Emilio Sanfilippo, ISTC-CNR, Italy</li>\n' +
-    // '<li>Arkopaul Sarkar, ENIT, France</li>\n' +
-    // '<li>Georg Schneider, Schaeffler, Germany</li>\n' +
-    // '<li>Lorenzo Solano, Polytechnic University of Valencia, Spain</li>\n' +
-    // '<li>Daniele Spoladore, STIIMA-CNR, Italy</li>\n' +
-    // '<li>Amanda Vizedom, Credit Suisse, Switzerland</li>\n' +
-    // '<li>Bob Young, Loughborough University, UK</li>\n'
+
+'<li>Alessandro Oltramari, Bosch, USA</li>' +
+'<li>Alessandro Umbrico, CNR-ISTC, Italy</li>' +
+'<li>Bahar Aameri, University of Toronto, Canada</li>' +
+'<li>Boonserm Kulvatunyou, National Institute of Standards and Technology, USA</li>' +
+'<li>Daniele Spoladore, CNR-STIIMA, Italy</li>' +
+'<li>Elisa Negri, Politecnico di Milano, Italy</li>' +
+'<li>Emilio Sanfilippo, CNR-ISTC, Italy</li>' +
+'<li>Francesco Zaccarini, University of Bologna, Italy</li>' +
+'<li>Hervé Panetto, University of Lorraine, France</li>' +
+'<li>Laura Daniele, TNO, Netherlands</li>' +
+'<li>Laure Vieu, IRIT-CNRS, France</li>' +
+'<li>Lorenzo Solano, Polytechnic University of Valencia, Spain</li>' +
+'<li>Marcela Vegetti, CONICET, Argentina</li>' +
+'<li>María Poveda, Universidad Politécnica de Madrid, Spain</li>' +
+'<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>' +
+'<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>' +
+
+    '<li> [to be updated] </li>'
 
 function createTable() {
     var tableHTML = '';
