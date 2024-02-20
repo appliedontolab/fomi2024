@@ -46,6 +46,7 @@ const committeeList =
 '<li>María Poveda, Universidad Politécnica de Madrid, Spain</li>' +
 '<li>Peter Klein, Fraunhofer ITWM, Germany</li>' +
 '<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>' +
+'<li>Rebeca Arista, Airbus, France</li>' +
 '<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>' +
 
     '<li> [to be updated] </li>'
