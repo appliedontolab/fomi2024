@@ -44,6 +44,7 @@ const committeeList =
 '<li>Lorenzo Solano, Polytechnic University of Valencia, Spain</li>' +
 '<li>Marcela Vegetti, CONICET, Argentina</li>' +
 '<li>María Poveda, Universidad Politécnica de Madrid, Spain</li>' +
+'<li>Peter Klein, Fraunhofer ITWM, Germany</li>' +
 '<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>' +
 '<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>' +
 
