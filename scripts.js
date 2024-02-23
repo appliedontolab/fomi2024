@@ -37,6 +37,7 @@ const committeeList =
 '<li>Daniele Spoladore, CNR-STIIMA, Italy</li>' +
 '<li>Elisa Negri, Politecnico di Milano, Italy</li>' +
 '<li>Emilio Sanfilippo, CNR-ISTC, Italy</li>' +
+'<li>Farhad Ameri, Arizona State University, USA</li>' +
 '<li>Francesco Zaccarini, University of Bologna, Italy</li>' +
 '<li>Hervé Panetto, University of Lorraine, France</li>' +
 '<li>Laura Daniele, TNO, Netherlands</li>' +
@@ -48,8 +49,9 @@ const committeeList =
 '<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>' +
 '<li>Rebeca Arista, Airbus, France</li>' +
 '<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>' +
+'<li>Silvia Chiacchiera, STFC UKRI, UK</li>' +
 
-    '<li> [to be updated] </li>'
+    '[to be updated]'
 
 function createTable() {
     var tableHTML = '';
