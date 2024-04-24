@@ -10,10 +10,11 @@ const uploadPapersLink = "https://easychair.org/my/conference?conf=fois2024"
 const JOWOlink = "http://iaoa.org/jowo/";
 
 const importantDates = 
-'<li> 24 April 2024 - Paper submission deadline.</li>\n' +
-'<li> 22 May 2024 - Notification of acceptance.</li>\n' +
-'<li> 15-19 July 2024 - JOWO workshop days co-located with FOIS 2024 (exact FOMI date TBD).</li>\n' +
-'<li> 30 July 2024 - Camera-ready submission (post-conference proceedings).</li>\n'
+'<li> Paper submission deadline: <strike>24 April 2024</strike> 02 May 2024 </li>\n' +
+'<li> Notification of acceptance: <strike> 22 May 2024</strike> 29 May 2024 </li>\n' +
+'<li> Author registration: 03 June 2024 </li>\n' +
+'<li> JOWO workshop days co-located with FOIS 2024 (exact FOMI date TBD): 15-17 July 2024 </li>\n' +
+'<li> Camera-ready submission (post-conference proceedings): 30 July 2024 </li>\n'
 const events = [ // Array of date and text pairs
     // { date: "July 2, 2021", text: "The deadline for submission of papers for FOMI2021 has been extend until 9. July 2021." },
     // { date: "May 27, 2021", text: "We partnered with the Industrial Ontologies Foundry (IOF) to join efforts and present its current activities as part of the FOMI 2021 workshop." },
