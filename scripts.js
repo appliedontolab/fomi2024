@@ -21,6 +21,8 @@ const events = [ // Array of date and text pairs
     // { date: "May 27, 2021", text: "We partnered with the OntoCommons project to join efforts and present a special session on OntoCommons activities as part of the FOMI 2021 workshop." },
     { date: "Gen 15, 2024", text: "FOMI 2024 web site is public." },
     { date: "Feb 02, 2024", text: "Updated call dates." },
+    { date: "Jun 27, 2024", text: "Program online." },
+    { date: "Jul 16, 2024", text: "FOMI workshop." },
 ];
 const organizers = [
     { name: "Francesco Compagno", email: "francesco.compagno@unitn.it" },
